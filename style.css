@@ -1,0 +1,60 @@
+#tag-area {
+	font-family: arial;
+	border: 2px dashed #E9E9E9;
+	min-height: 120px;
+	margin-bottom: 20px;
+	width: 240px;
+	position: relative;
+	background: #FFD;
+}
+#tag-area input {
+	border: 0 none;
+	box-shadow: none;
+	border-bottom: 1px dotted #ddd;
+	width: 231px;
+	background: #FFFFF7;
+	font-size: 13px;
+	border-radius: 0;
+	padding: 4px;
+}
+
+#tag-area .enter-key {
+	position: absolute;
+	right: 2px;
+	top: 0;
+	opacity: 0.5;
+	cursor: pointer;
+	padding: 3px;
+	display: none;
+}
+#tag-area .enter-key:hover {
+	opacity: 0.8;
+}
+#tag-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 18px;
+	font-size: 12px;
+	margin: 6px;
+	display: none;
+}
+#tag-list li {
+	font-size: 12px;
+	display: inline-block;
+	padding: 1px 6px;
+	margin: 0 4px 0 0;
+	background: #469;
+	color: #FFF;
+	border-radius: 3px;
+}
+
+#tag-list li span {
+	cursor: pointer;
+	margin: 4px 0 0 2px;
+	color: #aaa;
+}
+#tag-list li span:hover {
+	color: #faa;
+}
+
